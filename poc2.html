@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poc 2</title>
+</head>
+<style>
+
+</style>
+<body>
+    <h1>JavaScript Arrays</h1>
+    <!--map-->
+    <p>Multiply every element in the array with 10:</p>
+
+    <p id="demo1"></p>
+    <!--filter-->
+    <h2>The filter() Method</h2>
+
+    <p>Get every element in the array that has a value of 18 or more:</p>
+
+    <p id="demo2"></p>
+    <!--spread-->
+    <p>The spread operator is often used to extract only what's needed from an array:</p>
+    <p id="um"></p>
+    <p id="dois"></p>
+    <p id="tres"></p>
+    <!--sort-->
+    <h2>The sort() Method</h2>
+    <p>The sort() method sorts the elements of an array in alphabetical order.</p>
+
+    <p id="demo4"></p>
+    <!--reduce-->
+    <p>Subtract the numbers in the array, starting from the left:</p>
+
+    <p id="demo5"></p>
+</body>
+<script>
+    // map
+    const numeros1 = [65, 44, 12, 4];
+    const newArr = numbers.map(myFunction);
+
+    document.getElementById("demo1").innerHTML = newArr;
+
+    function myFunction(num) {
+        return num * 10;
+    }
+    // filter
+    const ages = [32, 33, 16, 40];
+
+    document.getElementById("demo2").innerHTML = ages.filter(checkAdult);
+
+    function checkAdult(age) {
+        return age >= 18;
+}
+    // spread
+    const numeros2 = [1, 2, 3, 4, 5, 6];
+
+    const [one, two, ...rest] = numbers;
+
+    document.getElementById("um").innerHTML = one; 
+    document.getElementById("dois").innerHTML = two; 
+    document.getElementById("tres").innerHTML = rest;  
+    // sort
+    // Create an Array
+    const fruta = ["Banana", "Orange", "Apple", "Mango"];
+
+    // Sort the Array
+    fruits.sort();
+
+    // Display the Array
+    document.getElementById("demo4").innerHTML = fruits;
+    // reduce
+    const numeros3 = [175, 50, 25];
+    document.getElementById("demo5").innerHTML = numbers.reduce(myFunc);
+
+    function myFunc(total, num) {
+        return total - num;
+    }
+</script>
+</html>

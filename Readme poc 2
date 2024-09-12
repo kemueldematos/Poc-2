@@ -1,1 +1,11 @@
 # Poc-2
+
+Conceito de métodos de arrays em JavaScript
+
+As definições dos seguintes métdos de arrays em JavaScript são:
+
+-Sort: O método "sort" classifica os elementos de um array em ordem alfabética ou numérica
+-Filter: O método "filter" cria um novo array com todos os elementos que passam no teste implementado pela função fornecida
+-Map: O método "map" cria um novo array com os resultados da aplicação de uma função a cada elemento do array original
+-Reduce: O método "reduce" executa uma função fornecida para cada elemento do array (da esquerda para a direita) e reduz o array a um único valor
+-Spread: O operador "spread" permite que você extraia elementos de um array e os coloque em uma nova variável ou em uma nova estrutura
